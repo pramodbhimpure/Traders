@@ -38,15 +38,7 @@ export default function About() {
               transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
               className="flex flex-col items-center"
             >
-              <div className="relative w-full max-w-md rounded-[2.5rem] overflow-hidden shadow-[0_0_50px_rgba(255,255,255,0.05)] border border-white/10">
-                <img 
-                  src={..}
-                  alt="Prashant Nilkanthappa Bhimpure"
-                  className="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-500"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent" />
-              </div>
-
+              
               {/* Owner Info Card */}
               <motion.div 
                 initial={{ opacity: 0, y: 20 }}
