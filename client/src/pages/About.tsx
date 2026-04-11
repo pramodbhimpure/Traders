@@ -40,7 +40,7 @@ export default function About() {
             >
               <div className="relative w-full max-w-md rounded-[2.5rem] overflow-hidden shadow-[0_0_50px_rgba(255,255,255,0.05)] border border-white/10">
                 <img 
-                  src={ownerImg}
+                  src={..}
                   alt="Prashant Nilkanthappa Bhimpure"
                   className="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-500"
                 />
@@ -56,7 +56,7 @@ export default function About() {
                 className="mt-8 w-full max-w-md bg-white/5 backdrop-blur-xl p-8 rounded-3xl border border-white/10 text-center"
               >
                 <h2 className="font-serif text-3xl font-bold text-white mb-1">
-                  Prashant Nilkanthappa
+                  Prashant Nilkanthappa Bhimpure
                 </h2>
                 <p className="text-primary font-medium tracking-widest text-sm uppercase mb-6">
                   Founder & Owner
